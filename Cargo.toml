@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 anyhow = "1"
 axum = "0.7"
+dotenv = "0.15.0"
 futures = "0.3"
 mongodb = "2"
 serde = { version = "1", features = ["derive"] }
